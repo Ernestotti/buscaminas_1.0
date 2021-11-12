@@ -1,0 +1,92 @@
+.contenedor{
+    margin: auto auto;
+    padding: 1rem;
+    box-align:center;
+    text-align:center;
+    background-color: lightsteelblue;
+    width:400px;
+    height:500px;
+}
+
+/*Dimensionado de la clase matriz del html*/
+.matriz{
+    height: 400px;
+    width: 400px;
+    background-color: grey;
+    /*Para poder agrupar todos los cuadraditos*/
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 3px 3px 0 0 rgba(255, 255, 255, 0.5),
+        inset -3px -3px 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.matriz div{
+    background-color: #BBBBBB;
+    border-left: 2px solid #D3D3D3;
+    border-top: 2px solid #D3D3D3;
+    border-right: 2px solid #A9A9A9;
+    border-bottom: 2px solid #A9A9A9;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    box-sizing: border-box;
+    
+}
+div #banderas-izquierda{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banderas-izquierda{
+    background-color: #fafafa;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.1px 10px;
+    border: 1px  solid #ccc;
+    text-align: center;
+}
+
+.bandera{
+    font-size:25px;
+}
+
+.bomba{
+    background-color:red;
+    font-size:25px;
+    box-sizing: border-box;
+}
+
+.uno{
+    color: green;
+    font-size:30px;
+}
+.dos{
+    color: blue;
+    font-size:30px;
+}
+.tres{
+    color: purple;
+    font-size:30px;
+}
+.cuatro{
+    color: yellow;
+    font-size:30px;
+}
+.cinco{
+    color: orange;
+    font-size:30px;
+}
+.seis{
+    color: crimson;
+    font-size:30px;
+}
+.siete{
+    color: brown;
+    font-size:30px;
+}
+.ocho{
+    color: black;
+    font-size:30px;
+}
