@@ -1,29 +1,30 @@
 .contenedor{
     margin: auto auto;
     padding: 1rem;
-    box-align:center;
-    text-align:center;
-    background-color: lightsteelblue;
+    border: 2px;
+    background-color: #b3b4b4;
     width:400px;
-    height:500px;
+    height:425px;
 }
 
 /*Dimensionado de la clase matriz del html*/
 .matriz{
     height: 400px;
     width: 400px;
-    background-color: grey;
+    background-color: #818282;
+    text-align:center;
     /*Para poder agrupar todos los cuadraditos*/
     display: flex;
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: inset 3px 3px 0 0 rgba(255, 255, 255, 0.5),
-        inset -3px -3px 0 0 rgba(0, 0, 0, 0.5);
+    padding: 3px;
+    border-spacing: 2px;
+    border: 5px outset #4444ff;
 }
 
 .matriz div{
-    background-color: #BBBBBB;
+    background-color: #b3b4b4;
     border-left: 2px solid #D3D3D3;
     border-top: 2px solid #D3D3D3;
     border-right: 2px solid #A9A9A9;
@@ -32,15 +33,19 @@
     height: 40px;
     width: 40px;
     box-sizing: border-box;
-    
+    user-select: none;
 }
-div #banderas-izquierda{
-    margin-left: auto;
-    margin-right: auto;
+
+.matriz .anotado{
+	border-left: 1px solid #A9A9A9;
+	border-top: 1px solid #A9A9A9;
+	border-right: 1px solid #D3D3D3;
+	border-bottom: 1px solid #D3D3D3;
+	text-shadow: 1px 1px 2px #999999;
 }
 
 #banderas-izquierda{
-    background-color: #fafafa;
+    background-color: #aaad76;
     margin-left: auto;
     margin-right: auto;
     padding: 0.1px 10px;
